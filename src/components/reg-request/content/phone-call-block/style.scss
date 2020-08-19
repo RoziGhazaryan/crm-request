@@ -1,0 +1,21 @@
+@import './../../../../assets/style/global/variables.scss';
+@import './../../../../assets/style/global/mixins.scss';
+
+
+.phone-call-block {
+    height: 56px;
+    background: #ffffff;
+    box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.15);
+    padding-right: 32px;
+    margin-top: 5px;
+
+    .phone-call {
+        @include wh(32px, 32px);
+
+        img {
+            @include wh100;
+        }
+    }
+}
+
+@import './responsive.scss';

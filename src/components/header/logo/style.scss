@@ -1,0 +1,16 @@
+@import '../../../assets/style/global/variables.scss';
+@import '../../../assets/style/global/mixins.scss';
+
+.logo {
+    @include wh(128px, 43px);
+
+    a {
+        @include wh100;
+
+        img {
+            @include wh100;
+            object-fit: contain;
+        }
+    }
+
+}

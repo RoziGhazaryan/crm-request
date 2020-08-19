@@ -1,0 +1,118 @@
+@import './../../assets/style/global/variables.scss';
+@import './../../assets/style/global/mixins.scss';
+
+.call {
+    margin-left: 32px;
+
+    .call-block {
+        width: 505px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+        padding: 50px 34px 57px;
+
+        .call-title {
+            h5 {
+                @include font(24px, 300, 'WeblysleekUI');
+                color: $staticColor;
+
+                i {
+                    color: #656565;
+                    font-weight: 300;
+                    display: block;
+                    padding-bottom: 12px;
+                }
+            }
+
+            .microphone {
+                display: inline-block;
+                @include wh(60px, 60px);
+                margin-right: -10px;
+
+                svg {
+                    @include wh100;
+                }
+            }
+        }
+
+        .call-duration {
+            margin-bottom: 10px;
+        }
+
+        .call-id-attach {
+            @include font(14px, 300, 'WeblysleekUI');
+
+            p {
+                margin-bottom: 0 !important;
+                color: $staticColor;
+            }
+
+            span {
+                text-decoration-line: underline;
+                color: #0074B6;
+
+            }
+        }
+
+        .divider {
+            @include wh(100%, 1px);
+            background-color: #BCBCBC;
+            margin: 4px 0 24px;
+        }
+
+        .call-details {
+            img {
+                object-fit: contain;
+            }
+
+            span {
+                color: $staticColor;
+                padding-left: 8px;
+            }
+        }
+
+        .call-details+.call-details {
+            margin-top: 8px;
+        }
+
+        .end-transfer {
+            height: 40px;
+            margin-top: 26px;
+
+            button {
+                height: 100%;
+                border-radius: 4px;
+                padding: 0;
+
+                span {
+                    @include font(16px, 600, 'WeblysleekUI-bold');
+                    line-height: 21px;
+                }
+            }
+
+            .end-call {
+                width: 88px;
+                background: $staticColor;
+                border: 1px solid transparent;
+                box-shadow: 0px 2px 10px rgba(230, 110, 0, 0.25);
+                
+                span {
+                    color: #ffffff;
+                }
+            }
+
+            .transfer-call {
+                width: 112px;
+                border: 1px solid #497E75;
+                background: #ffffff;
+                box-shadow: 0px 2px 10px rgba(73, 126, 117, 0.28);
+                
+                span {
+                    color: #497E75;
+                }
+            }
+        }
+    }
+}
+
+@import './responsive.scss';

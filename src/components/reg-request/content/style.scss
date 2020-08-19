@@ -1,0 +1,13 @@
+@import './../../../assets/style/global/variables.scss';
+@import './../../../assets/style/global/mixins.scss';
+
+.content {
+    width: 100%;
+
+    .request-types-call {
+        padding: 25px 32px 0 32px;
+        height: calc(100vh + 45px);
+    }
+}
+
+@import './responsive.scss';

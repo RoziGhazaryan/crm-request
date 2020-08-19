@@ -1,0 +1,35 @@
+@import '../../../../assets/style/global/variables.scss';
+@import '../../../../assets/style/global/mixins.scss';
+
+.user ul {
+    margin: 0 -24px;
+
+    li {
+        padding: 0 24px;
+        position: relative;
+
+        &::after {
+            content: "";
+            position: absolute;
+            @include wh(1px, 12px);
+            background-color: #fff;
+            top: 50%;
+            right: 0;
+            transform: translateY(-50%);
+        }
+        a {
+            @include wh(20px, 24px);
+            object-fit: contain;
+
+            svg,
+            img {
+                @include wh100;
+            }
+        }
+    }
+}
+
+
+.user ul li.userAvatar a {
+    @include wh(32px, 32px);
+}

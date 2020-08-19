@@ -1,0 +1,17 @@
+@import './../../../../assets/style/global/variables.scss';
+@import './../../../../assets/style/global/mixins.scss';
+
+
+.content-title {
+    height: 92px;
+    padding-left: 32px;
+    border-bottom: 1px solid #BCBCBC;
+
+}
+
+.content-title h3 {
+    @include font(36px, 300, 'WeblysleekUI');
+    color: #2C323F;
+}
+
+@import './responsive.scss';

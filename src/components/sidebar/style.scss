@@ -1,0 +1,66 @@
+@import '../../assets/style/global/variables.scss';
+@import '../../assets/style/global/mixins.scss';
+
+.sidebar {
+    .ant-layout-sider {
+        height: 100%;
+
+        .ant-menu-item {
+            position: relative;
+            padding-left: 45px !important;
+            @include font(14px, 600, 'WeblysleekUI-bold');
+
+            .menu-item-icon {
+                @include wh(16px, 16px);
+                position: absolute;
+                top: 4px;
+                left: 24px;
+
+                svg {
+                    @include wh100;
+                }
+            }
+        }
+
+        .divided {
+            display: block;
+            position: relative;
+            @include wh(100%, 1px);
+            margin-top: 14px;
+            margin-bottom: 8px;
+
+            &::before {
+                content: "";
+                position: absolute;
+                background-color: #777777;
+                @include wh(130%, 100%);
+                left: -20px;
+            }
+        }
+
+        .ant-layout-sider-children {
+            background-color: #2C323F;
+
+            .ant-menu-dark {
+                background-color: #2C323F;
+                padding-top: 14px;
+                padding-right: 31px;
+
+                .ant-menu-item {
+                    border-top-right-radius: 20px;
+                    border-bottom-right-radius: 20px;
+                }
+
+                .ant-menu-item+.ant-menu-item {
+                    margin-top: 8px;
+                }
+
+                .ant-menu-item-selected {
+                    background: $staticColorGradient;
+                }
+            }
+        }
+    }
+}
+
+@import './responsive.scss';
