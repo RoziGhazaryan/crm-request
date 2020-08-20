@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const MenuBtn = () => {
   return (
-    <div className='d_flex a_items_center'>
+    <div className='menu d_flex a_items_center'>
       <Link to="/menu">
         <div className='menu-btn'>
           <span></span>

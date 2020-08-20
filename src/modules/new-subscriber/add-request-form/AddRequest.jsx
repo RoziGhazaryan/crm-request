@@ -1,43 +1,15 @@
 import React from "react";
 import "./style.scss";
 import 'antd/dist/antd.css';
-import { Upload, message, Form, Input, Button, Select, Radio } from 'antd';
+import { message, Form, Input, Button, Select, Radio } from 'antd';
 
 const { Option } = Select;
-
-const props = {
-  name: 'file',
-  action: 'https://www.mocky.io/v2/5cc8019d300000980a055e76',
-  headers: {
-    authorization: 'authorization-text',
-  },
-  onChange(info) {
-    if (info.file.status !== 'uploading') {
-      console.log(info.file, info.fileList);
-    }
-    if (info.file.status === 'done') {
-      message.success(`${info.file.name} file uploaded successfully`);
-    } else if (info.file.status === 'error') {
-      message.error(`${info.file.name} file upload failed.`);
-    }
-  },
-};
-
-const layout = {
-  labelCol: {
-    span: 8,
-  },
-  wrapperCol: {
-    span: 16,
-  },
-};
 
 function handleChange(value) {
   console.log(`selected ${value}`);
 }
 
-function NewSubForm() {
-
+function AddRequest() {
   const onFinish = values => {
     console.log('Success:', values);
   };
@@ -79,13 +51,10 @@ function NewSubForm() {
 
             <Form.Item name="region" rules={[ { required: true, message: 'Please input your region!' , }, ]}>
               <Select onChange={handleChange} className='select-block'>
-                <Option value="lucy">Lucy</Option>
-                <Option value="jack">Jack</Option>
-                <Option value="lucy">Lucy</Option>
-                <Option value="disabled" disabled>
-                  Disabled
-                </Option>
-                <Option value="Yiminghe">yiminghe</Option>
+                <Option value="syunik">Syunik</Option>
+                <Option value="tavush">Tavush</Option>
+                <Option value="lori">Lori</Option>
+                <Option value="ararat">Ararat</Option>
               </Select>
               <span class="input-area-placeholder">Region</span>
             </Form.Item>
@@ -128,9 +97,9 @@ function NewSubForm() {
 
             <Form.Item name="street" rules={[ { required: true, message: 'Please input your street!' , }, ]}>
               <Select onChange={handleChange} className='select-block'>
-                <Option value="Lernagortsner">Lernagortsner</Option>
-                <Option value="Bagratuniats">Bagratuniats</Option>
-                <Option value="Manandian">Manandian</Option>
+                <Option value="tariff">Tariff</Option>
+                <Option value="tariff">Tariff</Option>
+                <Option value="tariff">Tariff</Option>
               </Select>
               <span class="input-area-placeholder">Tariff</span>
             </Form.Item>
@@ -161,4 +130,4 @@ function NewSubForm() {
     </div>
   );
 }
-export default NewSubForm;
+export default AddRequest;

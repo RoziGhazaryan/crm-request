@@ -18,7 +18,7 @@
             transform: translateY(-50%);
         }
         a {
-            @include wh(20px, 24px);
+            @include wh(24px, 24px);
             object-fit: contain;
 
             svg,
