@@ -157,7 +157,7 @@
 
     .ant-input:focus~.input-area-placeholder,
     .ant-select-focused~.input-area-placeholder {
-        font-size: 14px;
+        @include font(11px, 600, 'WeblysleekUI-bold');
         top: -12px;
         transform: translateY(0);
         color: #98339F;
@@ -297,7 +297,7 @@
 
 
 .input-area-placeholder {
-    font-size: 16px;
+    @include font(16px, 300, 'WeblysleekUI');
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
