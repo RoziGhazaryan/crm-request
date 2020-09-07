@@ -13,7 +13,7 @@
 
         .call-title {
             h5 {
-                @include font(24px, 300, 'WeblysleekUI');
+                @include font(24px, 400, 'WeblysleekUI');
                 color: $staticColor;
 
                 i {
@@ -40,7 +40,7 @@
         }
 
         .call-id-attach {
-            @include font(14px, 300, 'WeblysleekUI');
+            @include font(14px, 400, 'WeblysleekUI');
 
             p {
                 margin-bottom: 0 !important;

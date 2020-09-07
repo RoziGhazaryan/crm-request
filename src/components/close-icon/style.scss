@@ -1,0 +1,31 @@
+@import '../../assets/style/global/variables';
+@import '../../assets/style/global/mixins';
+
+.close-icon {
+    @include wh(12px, 12px);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    cursor: pointer;
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 5px;
+        left: -2px;
+        @include wh(14px, 1px);
+        background-color: #656565;
+        transform: rotate(45deg);
+    }
+
+    &::after {
+        content: '';
+        position: absolute;
+        top: 5px;
+        left: -2px;
+        @include wh(14px, 1px);
+        background-color: #656565;
+        transform: rotate(-45deg);
+    }
+}

@@ -1,0 +1,41 @@
+@import './../../../assets/style/global/variables';
+@import './../../../assets/style/global/mixins';
+
+.customer-info-table {
+    padding: 0 12px;
+
+    table {
+        width: 480px;
+
+        thead {
+            tr {
+                border: 1px solid #BCBCBC;
+                @include font(14px, 600, 'Roboto-bold');
+                color: #313131;
+
+                th {
+                    padding: 12px;
+                }
+            }
+        }
+
+        tbody {
+            tr {
+                td {
+                    color: #606060;
+                    padding: 12px;
+                    border: 1px solid #BCBCBC;
+                }
+
+                td:first-child {
+                    width: 140px;
+                    @include font(14px, 600, 'Roboto-bold');
+                }
+
+                .customer-info-table table tbody tr td:last-child {
+                    @include font(14px, 300, 'Roboto');
+                }
+            }
+        }
+    }
+}

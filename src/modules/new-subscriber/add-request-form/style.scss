@@ -91,7 +91,7 @@
                             }
 
                             span {
-                                @include font(16px, 300, 'WeblysleekUI');
+                                @include font(16px, 400, 'WeblysleekUI');
                                 line-height: 21px;
                             }
                         }
@@ -296,7 +296,7 @@
 }
 
 .input-area-placeholder {
-    @include font(16px, 300, 'WeblysleekUI');
+    @include font(16px, 400, 'WeblysleekUI');
     position: absolute;
     top: 50%;
     transform: translateY(-50%);

@@ -1,0 +1,11 @@
+@import './../../assets/style/global/variables.scss';
+@import './../../assets/style/global/mixins.scss';
+
+.customer-info {
+    height: 100vh;
+
+    .customer-info-tables {
+        padding: 24px 32px;
+        margin: 0 -12px;
+    }
+}

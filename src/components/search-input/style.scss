@@ -1,0 +1,61 @@
+@import './../../assets/style/global/variables.scss';
+@import './../../assets/style/global/mixins.scss';
+
+
+.search-input {
+    position: relative;
+    @include wh(290px, 24px);
+    margin-bottom: 24px;
+
+    .ant-input-affix-wrapper {
+        border-width: 0 0 1px 0;
+        border-style: solid;
+        border-color: #777777;
+        @include wh(100% !important, 100%);
+        padding-left: 24px;
+
+        &:hover {
+            border-right-width: 0px !important;
+        }
+
+        .ant-input::placeholder {
+            color: #BCBCBC;
+            @include font(16px, 300, 'Roboto-Light');
+        }
+
+        .ant-input-suffix {
+            margin-left: 0;
+            position: absolute;
+            left: 0;
+            @include wh(16px, 16px);
+
+            .ant-input-search-icon {
+                @include wh100;
+                margin-left: 0;
+
+                &::before {
+                    display: none;
+                }
+
+                svg {
+                    @include wh100;
+                    position: absolute;
+                    top: 50%;
+                    left: 0;
+                    transform: translateY(-50%);
+                    fill: #272727;
+                }
+
+                &::after {
+                    @include wh100;
+                }
+            }
+        }
+    }
+
+    .ant-input-affix-wrapper:focus,
+    .ant-input-affix-wrapper-focused {
+        border-right: none !important;
+        box-shadow: none;
+    }
+}

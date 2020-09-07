@@ -6,12 +6,12 @@ import UserMenu from "./user-menu/UserMenu";
 
 const Header = () => {
     return (
-      <div>
+      <>
         <header className="d_flex a_items_center j_content_between">
           <Logo />
           <UserMenu />
         </header>
-      </div>
+      </>
     );
   };
   
