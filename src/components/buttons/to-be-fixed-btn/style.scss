@@ -1,0 +1,14 @@
+@import '../../assets/style/global/variables';
+@import '../../assets/style/global/mixins';
+
+.to-be-fixed-btn {
+
+    .ant-select-selector {
+        background-color: #EFB00E !important;
+    
+        .ant-select-selection-item {
+            text-overflow: clip;
+            white-space: nowrap;
+        }
+    }
+}

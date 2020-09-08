@@ -1,0 +1,18 @@
+@import '../../assets/style/global/variables';
+@import '../../assets/style/global/mixins';
+
+
+.static-btn {
+    color: #ffffff;
+    @include font(14px, 300, 'Roboto-light');
+    @include wh(104px, 32px);
+    border-radius: 4px;
+}
+
+.link-btn {
+    background: linear-gradient(74.26deg, #3AA9E8 23.43%, #6BC2F2 85.02%);
+
+    .file-icon {
+        margin-right: 8px;
+    }
+}

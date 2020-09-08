@@ -1,0 +1,26 @@
+@import '../../assets/style/global/variables';
+@import '../../assets/style/global/mixins';
+
+
+.ant-select-focused {
+    .ant-select-selector {
+        border: 0 !important;
+        box-shadow: unset !important;
+    }
+}
+
+.ant-select-selector {
+    background-color: #808080 !important;
+    border-radius: 4px !important;
+    border: unset !important;
+}
+
+.ant-select-arrow {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #ffffff;
+    color: transparent;
+    top: 57%;
+}

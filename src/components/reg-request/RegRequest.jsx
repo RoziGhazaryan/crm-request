@@ -8,7 +8,7 @@ import ContentRegRequest from "./content/Content";
 function RegRequestC() {
     return (
         <div className='request d_flex'>
-            {/* <Sidebar /> */}
+            <Sidebar />
             <ContentRegRequest />
         </div>
     );

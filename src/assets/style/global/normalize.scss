@@ -1,5 +1,9 @@
 @import "../../font/font.scss";
 
+html {
+  --antd-wave-shadow-color: transparent !important;
+}
+
 html,
 body,
 div,
@@ -136,6 +140,10 @@ a {
 
 button {
   cursor: pointer;
+}
+
+p {
+  margin: 0 !important;
 }
 
 input,

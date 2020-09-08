@@ -1,0 +1,38 @@
+@media (max-width: 1199.98px) {
+
+    .sidebar-customers-list {
+        .customers-list {
+            padding: 24px;
+
+            .ant-table {
+                width: 730px;
+            }
+        }
+    }
+}
+
+@media (max-width: 991.98px) {
+
+    .sidebar-customers-list {
+        .customers-list {
+            .ant-table {
+                width: 343px;
+            }
+        }
+    }
+}
+
+@media (max-width: 575.98px) {
+
+    .sidebar-customers-list {
+        .customers-list {
+            padding: 15px;
+            .ant-table {
+                width: 280px;
+            }
+        }
+    }
+}
+
+
+
