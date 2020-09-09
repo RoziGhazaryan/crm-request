@@ -2,6 +2,8 @@
 @import './../../../assets/style/global/mixins.scss';
 
 .new-subscriber-call {
+    height: calc(100vh - 80px);
+
     .form {
         .form-item-list {
             .form-item-block {
@@ -251,6 +253,7 @@
         width: 144px;
         height: 40px;
         padding: 1px;
+        margin-top: -20px;
         margin-left: 40px;
         border-radius: 4px;
         background: $staticColorGradient;

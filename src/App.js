@@ -14,7 +14,7 @@ function App() {
       <div className='app'>
         {/* <RegRequest /> */}
         {/* <NewSubscriber /> */}
-        <CustomerInfo />
+        {/* <CustomerInfo /> */}
         {/* <CustomersList /> */}
       </div>
     </BrowserRouter>
