@@ -2,7 +2,7 @@
 @import './../../assets/style/global/mixins.scss';
 
 .customer-info {
-    height: 100vh;
+    height: calc(100vh - 80px);
 
     .customer-info-tables {
         padding: 24px 32px;

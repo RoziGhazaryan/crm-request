@@ -1,64 +1,67 @@
 @import './../../assets/style/global/variables.scss';
 @import './../../assets/style/global/mixins.scss';
 
-.sidebar-customers-list {
-    width: 100%;
+.customers-list-page {
+    height: calc(100vh - 80px);
 
-    .customers-list {
-        padding: 24px 32px;
+    .customers-list-block {
+        width: 100%;
 
-        .ant-table {
-            width: 800px;
-            overflow-x: scroll;
-            display: block;
+        .customers-list {
+            padding: 24px 32px;
 
-            th {
-                background-color: transparent;
-            }
+            .ant-table {
+                width: 800px;
+                overflow-x: scroll;
+                display: block;
 
-            th:last-child {
-                text-align: end;
-                padding-right: 0;
-            }
-
-            .ant-table-cell {
-
-                .status-btn {
-                    color: #ffffff;
-                    background-color: #888888;
-                    cursor: pointer;
-                    @include wh(100px, 24px);
-                    @include font(16px, 300, 'Roboto-Light');
-                    border-radius: 4px;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                }
-
-                .accept-btn {
-                    background-color: #4FB200;
-                }
-
-                .execute-btn {
-                    background: $staticColorGradient;
-                }
-
-                .pending-btn {
-                    background: linear-gradient(81.15deg, #FD7424 0%, #EAA15E 70.32%);
-                }
-
-                .view-btn {
-                    top: 14px;
-                    right: 0;
-                    position: absolute;
+                th {
                     background-color: transparent;
                 }
+
+                th:last-child {
+                    text-align: end;
+                    padding-right: 0;
+                }
+
+                .ant-table-cell {
+
+                    .status-btn {
+                        color: #ffffff;
+                        background-color: #888888;
+                        cursor: pointer;
+                        @include wh(100px, 24px);
+                        @include font(16px, 300, 'Roboto-Light');
+                        border-radius: 4px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+
+                    .accept-btn {
+                        background-color: #4FB200;
+                    }
+
+                    .execute-btn {
+                        background: $staticColorGradient;
+                    }
+
+                    .pending-btn {
+                        background: linear-gradient(81.15deg, #FD7424 0%, #EAA15E 70.32%);
+                    }
+
+                    .view-btn {
+                        top: 14px;
+                        right: 0;
+                        position: absolute;
+                        background-color: transparent;
+                    }
+                }
+            }
+
+            .ant-pagination {
+                display: none;
             }
         }
-
-        .ant-pagination {
-            display: none;
-        }
-
     }
 }

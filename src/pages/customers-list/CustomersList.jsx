@@ -173,7 +173,7 @@ function CustomersList() {
       <Header />
       <div className="customers-list-page d_flex">
         <Sidebar />
-        <div className="sidebar-customers-list">
+        <div className="customers-list-block">
           <ContentTitle>New Subscriber</ContentTitle>
           <div className="customers-list">
             <SearchInput />
