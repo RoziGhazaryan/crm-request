@@ -12,7 +12,7 @@ function App() {
   return (
     <BrowserRouter history={window.routerHistory}>
       <div className='app'>
-        {/* <RegRequest /> */}
+        <RegRequest />  
         {/* <NewSubscriber /> */}
         {/* <CustomerInfo /> */}
         {/* <CustomersList /> */}
