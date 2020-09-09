@@ -1,6 +1,6 @@
 import React from "react";
-import "./style.scss";
-import Header from "../../components/header/Header";
+
+import "./CloseIcon.scss";
 
 function Close() {
   return (

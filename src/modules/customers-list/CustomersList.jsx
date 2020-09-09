@@ -1,10 +1,12 @@
 import React, { useState } from "react";
-import "./style.scss";
 import Header from "../../components/header/Header";
 import Sidebar from "../../components/sidebar/Sidebar";
 import ContentTitle from "../../components/reg-request/content/content-title/ContentTitle";
-import SearchInput from "../../components/search-input";
+import SearchInput from "../../components/search-input/SearchInput";
 import { Table, Tag } from "antd";
+
+import "./CustomersList.scss";
+import './responsive.scss';
 
 const columns = [
   {

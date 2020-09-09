@@ -1,10 +1,12 @@
 import React from "react";
-import "./style.scss";
 import 'antd/dist/antd.css';
 import ContentTitle from "./content-title/ContentTitle";
 import RequestTypes from "./request-types/RequestTypes";
 import Call from "../../call/Call";
 import PhoneCall from "./phone-call-block/PhoneCall";
+
+import "./Content.scss";
+import './responsive.scss';
 
 function ContentRegRequest() {
     return (

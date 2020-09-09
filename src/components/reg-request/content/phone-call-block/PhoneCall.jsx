@@ -1,6 +1,8 @@
 import React from "react";
-import "./style.scss";
 import 'antd/dist/antd.css';
+
+import "./PhoneCall.scss";
+import './responsive.scss';
 
 function PhoneCall() {
 

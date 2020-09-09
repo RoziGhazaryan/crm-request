@@ -1,7 +1,9 @@
 import React from "react";
-import "./style.scss";
 import 'antd/dist/antd.css';
 import { Button } from 'antd';
+
+import "./RequestTypes.scss";
+import './responsive.scss';
 
 function RequestTypes() {
     

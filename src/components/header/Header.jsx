@@ -1,8 +1,10 @@
 import React from "react";
-import "./style.scss";
 import 'antd/dist/antd.css';
 import Logo from "./logo/Logo";
 import UserMenu from "./user-menu/UserMenu";
+
+import "./Header.scss";
+import './responsive.scss';
 
 const Header = () => {
     return (

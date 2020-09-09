@@ -1,7 +1,9 @@
 import React from "react";
-import "./style.scss";
 import { Input } from "antd";
-import Close from "../../components/close-icon";
+import Close from "../close-icon/CloseIcon";
+
+import "./SearchInput.scss";
+
 const { Search } = Input;
 
 function SearchInput() {

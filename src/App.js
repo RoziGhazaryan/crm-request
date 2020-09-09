@@ -1,18 +1,20 @@
 import React from "react";
 import './assets/style/index.scss';
 import 'antd/dist/antd.css';
-import RegRequest from "./modules/reg-request";
+
 import { BrowserRouter } from 'react-router-dom';
-import NewSubscriberRequest from "./modules/new-subscriber";
-import CustomerInfo from "./modules/customer-info";
-import CustomersList from "./modules/customers-list";
+import RegRequest from "./modules/reg-request/RegRequest";
+import NewSubscriber from "./modules/new-subscriber/NewSubscriber";
+import CustomerInfo from "./modules/customer-info/CustomerInfo";
+import CustomersList from "./modules/customers-list/CustomersList";
+
 
 function App() {
   return (
     <BrowserRouter history={window.routerHistory}>
       <div className='app'>
-        <RegRequest />
-        {/* <NewSubscriberRequest /> */}
+        {/* <RegRequest /> */}
+        <NewSubscriber />
         {/* <CustomerInfo /> */}
         {/* <CustomersList /> */}
       </div>

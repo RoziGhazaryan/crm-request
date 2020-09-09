@@ -1,6 +1,7 @@
 import React from "react";
-import "./style.scss";
 import { NavLink } from "react-router-dom";
+
+import "./User.scss";
 
 const User = () => {
   return (

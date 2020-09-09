@@ -1,8 +1,9 @@
 import React from "react";
-import "./style.scss";
 import Header from "../../components/header/Header";
-import CustomerInfoTable from "./customer-info-table";
+import CustomerInfoTable from "./customer-info-table/CustomerInfoTable";
 import Sidebar from "../../components/sidebar/Sidebar";
+
+import "./CustomerInfo.scss";
 
 function CustomerInfo() {
   return (

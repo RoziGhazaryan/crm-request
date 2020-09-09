@@ -1,7 +1,9 @@
 import React from "react";
-import "./style.scss";
 import User from "./user/User";
 import MenuBtn from "./menu-btn/MenuBtn";
+
+import "./UserMenu.scss";
+import './responsive.scss';
 
 const UserMenu = () => {
   return (

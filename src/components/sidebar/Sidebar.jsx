@@ -1,7 +1,9 @@
 import React from "react";
-import "./style.scss";
 import "antd/dist/antd.css";
 import { Menu, Layout } from "antd";
+
+import "./Sidebar.scss";
+import './responsive.scss';
 
 const { Sider } = Layout;
 

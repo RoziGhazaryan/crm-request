@@ -1,7 +1,9 @@
 import React from "react";
-import "./style.scss";
 import 'antd/dist/antd.css';
-import { message, Form, Input, Button, Select, Radio } from 'antd';
+import { Form, Input, Button, Select, Radio } from 'antd';
+
+import "./AddRequest.scss";
+import './responsive.scss';
 
 const { Option } = Select;
 

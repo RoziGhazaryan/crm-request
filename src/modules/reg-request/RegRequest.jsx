@@ -1,5 +1,4 @@
 import React from "react";
-import "./style.scss";
 import Header from "../../components/header/Header";
 import RegRequestC from "../../components/reg-request/RegRequest";
 

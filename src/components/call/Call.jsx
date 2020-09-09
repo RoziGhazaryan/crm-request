@@ -1,8 +1,10 @@
 import React from "react";
-import "./style.scss";
 import 'antd/dist/antd.css';
 import { Button } from 'antd';
 import { Link } from "react-router-dom";
+
+import "./Call.scss";
+import './responsive.scss';
 
 function Call() {   
     return (
