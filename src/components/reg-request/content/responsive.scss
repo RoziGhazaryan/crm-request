@@ -13,17 +13,7 @@
         .content {
             .request-types-call {
                 flex-direction: column;
-                height: calc(100vh + 450px);
-            }
-        }
-    }
-}
-
-@media (max-width: 575.98px) {
-    .request {
-        .content {
-            .request-types-call {
-                height: calc(100vh + 330px);
+                height: auto;
             }
         }
     }

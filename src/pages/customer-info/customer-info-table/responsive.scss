@@ -1,0 +1,59 @@
+@media (max-width: 1499.98px) {
+    .customer-info {
+        .customer-info-tables {
+            .customer-info-table {
+                table {}
+            }
+        }
+    }
+}
+
+@media (max-width: 1274.98px) {
+    .customer-info {
+        .customer-info-tables {
+            .customer-info-table {
+                padding: 0;
+
+                table {
+                    width: 460px;
+                }
+            }
+
+            .customer-info-table+.customer-info-table {
+                padding-left: 12px;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 1199.98px) {
+    .customer-info {
+        .customer-info-tables {
+            .customer-info-table {
+                table {
+                    width: 365px;
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width: 991.98px) {
+    .customer-info {
+        .customer-info-tables {
+
+            .customer-info-table {
+                table {
+                    width: 100%;
+                }
+            }
+
+            .customer-info-table+.customer-info-table {
+                padding-top: 15px;
+                padding-left: 0;
+            }
+        }
+    }
+}

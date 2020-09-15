@@ -1,6 +1,7 @@
 import React from "react";
 
 import "./CustomerInfoTable.scss";
+import "./responsive.scss";
 
 function CustomerInfoTable() {
   return (

@@ -4,6 +4,7 @@ import CustomerInfoTable from "./customer-info-table/CustomerInfoTable";
 import Sidebar from "../../components/sidebar/Sidebar";
 
 import "./CustomerInfo.scss";
+import "./responsive.scss";
 
 function CustomerInfo() {
   return (

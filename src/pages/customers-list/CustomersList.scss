@@ -2,8 +2,6 @@
 @import './../../assets/style/global/mixins.scss';
 
 .customers-list-page {
-    height: calc(100vh - 80px);
-
     .customers-list-block {
         width: 100%;
 
@@ -11,7 +9,7 @@
             padding: 24px 32px;
 
             .ant-table {
-                width: 800px;
+                width: 100%;
                 overflow-x: auto;
                 display: block;
 

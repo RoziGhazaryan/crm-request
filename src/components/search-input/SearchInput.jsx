@@ -3,6 +3,7 @@ import { Input } from "antd";
 import Close from "../close-icon/CloseIcon";
 
 import "./SearchInput.scss";
+import "./responsive.scss";
 
 const { Search } = Input;
 

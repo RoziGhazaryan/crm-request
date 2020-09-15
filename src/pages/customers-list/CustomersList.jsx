@@ -178,14 +178,10 @@ function CustomersList() {
           <div className="customers-list">
             <SearchInput />
             <div className="customer-list-table">
-              <Table
-                rowSelection={{
+              <Table rowSelection={{
                   type: selectionType,
                   ...rowSelection,
-                }}
-                columns={columns}
-                dataSource={data}
-              />
+                }} columns={columns} dataSource={data} />
             </div>
           </div>
         </div>

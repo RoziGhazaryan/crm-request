@@ -26,7 +26,6 @@
 }
 
 @media (max-width: 1119.98px) {
-
     .new-subscriber-call {
         .form {
             .form-item-list {
@@ -53,12 +52,9 @@
 }
 
 @media (max-width: 797.98px) {
-
     .new-subscriber-call {
-        flex-direction: column;
-
         .form .form-item-list .form-item-block {
-            
+
             padding: 30px 15px;
 
             .ant-form-item {
@@ -91,10 +87,7 @@
 }
 
 @media (max-width: 575.98px) {
-
     .new-subscriber-call {
-        padding: 0;
-
         .form {
             .form-item-list {
                 .form-item-block {
